@@ -476,11 +476,93 @@ h1 {
 }
 
 
-
+footer{
+  font-family: 'Nunito', sans-serif;
+  background-color:#091E3E ;
+  display: flex;
+  margin-top: 100px;
+  padding-left: 500px;
+  position: relative;
+}
 
 
 .signup-form{
   font-family: 'Nunito', sans-serif;
   background-color: #06A3DA;
   color: white;
+  width: 22%;
+  text-align: center;
+  padding: 2%;
+  position: absolute; 
+  padding-top: 100px;
+  left: 90px;
+    height: 370px;
+  
 } 
+.signup-form h1{
+  font-size: 2.5rem;
+}
+.signup-form h1 i{
+  padding-right: 0.5rem;
+}
+
+.signup-form input {
+  padding: 21px 0px 19px 18px;
+}
+.signup-form button{
+  background-color: #091E3E;
+  border: #091E3E;
+  padding: 18.5px;
+  
+}
+
+.footer-right{
+  display: flex;
+}
+.fot-right-1 {
+  color: white;
+  padding: 32px;
+  text-align: initial;
+
+
+}
+.fot-right-1 ul {
+  padding: 0px;
+}
+.fot-right-1 h1 {
+  font-size: 1.5rem;
+}
+.fot-right-1 ul li{
+  font-size: 16px ;
+  padding: 0px;
+  padding-bottom: 13px;
+
+}
+.fot-right-1 ul li i {
+
+  color: #06A3DA;
+  padding: 10px;
+}
+.fot-right-1 .fot-social i {
+  padding: 7px;
+  background: #06A3DA;
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-top: 14px;
+
+}
+
+.copy-right{
+  background: #061429;
+  font-family: 'Nunito', sans-serif;
+  padding: 6px;
+  color: white;
+  text-align: center;
+  
+}
+.copy-right h3{
+  font-weight: 100 !important;
+  margin-left: 257px;
+}
+
